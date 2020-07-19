@@ -13,5 +13,5 @@ class CountrySpider(scrapy.Spider):
 
         yield {
             'title': title,
-            'countries': countries
+           'countries': countries
         }
